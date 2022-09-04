@@ -1,0 +1,170 @@
+body {
+    margin: 0 0 0 3.5vw;
+    padding: 0;
+    width: 90%;
+    background-color: #101010;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: #EFEFEF;
+}
+
+h1, h2 {
+    cursor: default;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#menu, #game, #config {
+    position: absolute;
+    margin-top: 10vh;
+    width: 90vw;
+    height: 70vh;
+}
+
+#game, #config, #hints_div {
+    display: none;
+}
+
+#close_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    cursor: pointer;
+}
+
+#close_button img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#hints_div {
+    margin-top: -450px;
+}
+
+#hints {
+    background-color: #101010;
+    width: 310px;
+    height: 400px;
+    border: #000 2px solid;
+    border-radius: 20px;
+    box-shadow: #000 3px 3px 5px;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.center, .button, .square {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin-top: 40px;
+    border: #EFEFEF 5px solid;
+    border-radius: 50px;
+    box-shadow: black 2px 3px 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #000;
+    border: #999 5px solid;
+    box-shadow: none;
+}
+
+.size {
+    width: 700px;
+}
+
+.square, .minisquare {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.square {
+    width: 50px;
+    height: 80px;
+    border-radius: 10px;
+    border: rgb(0, 0, 0) 2px solid;
+    box-shadow: #000 1px 1px 3px;
+}
+
+.square:hover {
+    box-shadow: none;
+}
+
+.minisquare {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 75px;
+}
+
+#operators {
+    margin-top: 40px;
+}
+
+.arrow {
+    width: 40px;
+    margin: 0 30px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.reverse {
+    transform: scaleX(-1);
+}
+
+
+/* ANIMATION */
+@keyframes select {
+    from {margin-top: 0px;}
+    to {margin-top: -30px;}
+}
+
+@keyframes unselect {
+    from {margin-top: -30px;}
+    to {margin-top: 0px;}
+}
+
+@keyframes shake {
+	0% {margin-left: 0;}
+	14% {margin-left: 30px;}
+	28% {margin-left: -30px;}
+	43% {margin-left: 15px;}
+	57% {margin-left: -15px;}
+	71% {margin-left: 7.5px;}
+	85% {margin-left: -7.5px;}
+	100% {margin-left: 0;}
+}
+
+@keyframes shake_left {
+    0% {margin-left: 0px;}
+    33% {margin-left: -100px;}
+    66% {margin-left: -50px;}
+    100% {margin-left: 0px;}
+}
+
+@keyframes shake_right {
+    0% {margin-left: 0px;}
+    33% {margin-left: 100px;}
+    66% {margin-left: 50px;}
+    100% {margin-left: 0px;}
+}
+
+@keyframes increase {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+@keyframes decrease {
+    from {transform: scale(1);}
+    to {transform: scale(0);}
+}

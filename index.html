@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>MOPER</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="initial-scale=1">
+        <meta name="viewport" content= "width=device-width, user-scalable=no">
+    </head>
+    <body onload="load_game()" onselectstart="return false">
+        <div id="menu">
+            <h1 class="center" id="logo">MOPER</h1>
+
+            <div class="center">
+                <div class="size button" onclick="show_game()">
+                    <p id="play_string"></p>
+                </div>
+            </div>
+
+            <div class="center">
+                <div class="size button" onclick="show_config()">
+                    <p id="config_string"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="game">
+            <div class="center">
+                <div onclick="show_menu()">
+                    <img src="images/back.png" class="minisquare">
+                </div>
+                <div onclick="show_hints()">
+                    <img src="images/interrogation.png" class="minisquare">
+                </div>
+                <div onclick="generator(difficulty_id)">
+                    <img src="images/reload.png" class="minisquare">
+                </div>
+            </div>
+
+            <div class="center">
+                <h2 id="value"></h2>
+            </div>
+
+            <div class="center" id="table"></div>
+            <div class="center" id="operators"></div>
+
+            <div class="center">
+                <div class="button size" id="checker_string" onclick="select(0)"></div>
+            </div>
+
+            <div id="hints_div" class="center">
+                <div id="hints">
+                    <div id="close_button" onclick="close_hints()">
+                        <img src="images/close.png"/>
+                    </div>
+
+                    <div>
+                        <p id="hints_string"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="config">
+            <div class="center" onclick="switch_difficulty()">
+                <div class="size button">
+                    <p id="difficulty_string"></p>
+                </div>
+            </div>
+
+            <div class="center" onclick="switch_language()">
+                <div class="size button">
+                    <p id="language_string"></p>
+                </div>
+            </div>
+
+            <div class="center" onclick="show_menu()">
+                <div class="size button">
+                    <p id="back_string"></p>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+    <script type="text/javascript" src="local.js"></script>
+    <script type="text/javascript" src="math.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+</html>
