@@ -1,0 +1,79 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #BBB;
+}
+
+#game {
+	margin: 2vh 0;
+}
+
+.line {
+	display: flex;
+	justify-content: center;
+}
+
+.square {
+	width: 50px;
+	height: 50px;
+	border: 3px solid #3E3E3E;
+	border-bottom: 5px solid #3E3E3E;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0 1px 20px 1px;
+	background-color: #5A5A5A;
+	font-size: 50px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.square p {
+	position: relative;
+	top: -50px;
+	left: 9px;
+}
+
+.key {
+	font-size: 14px;
+	width: 30px;
+	height: 36px;
+	border: 3px solid #5A5A5A;
+	display: inline-block;
+	margin: 0 0 10px 5px;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 1.5px 1.5px 3px #333;
+	background-color: #5A5A5A;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.key p {
+	position: relative;
+	top: -10px;
+}
+
+#key26, #key27 {
+	font-size: 18px;
+	width: 55px;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	
+	to {
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes shake {
+	0% {margin-left: 0;}
+	14% {margin-left: 30px;}
+	28% {margin-left: -30px;}
+	43% {margin-left: 15px;}
+	57% {margin-left: -15px;}
+	71% {margin-left: 7.5px;}
+	85% {margin-left: -7.5px;}
+	100% {margin-left: 0;}
+}

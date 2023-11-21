@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+<head>
+    <title>Letreta</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1">
+</head>
+<body onload="newGame()">
+    <div id="game">
+            <div class="line" id="line0">
+                <div id="id0" class="square" onclick="select('id0')"><p id="id0text"></p></div>
+                <div id="id1" class="square" onclick="select('id1')"><p id="id1text"></p></div>
+                <div id="id2" class="square" onclick="select('id2')"><p id="id2text"></p></div>
+                <div id="id3" class="square" onclick="select('id3')"><p id="id3text"></p></div>
+                <div id="id4" class="square" onclick="select('id4')"><p id="id4text"></p></div>
+            </div>
+            <div class="line" id="line1">
+                <div id="id5" class="square" onclick="select('id5')"><p id="id5text"></p></div>
+                <div id="id6" class="square" onclick="select('id6')"><p id="id6text"></p></div>
+                <div id="id7" class="square" onclick="select('id7')"><p id="id7text"></p></div>
+                <div id="id8" class="square" onclick="select('id8')"><p id="id8text"></p></div>
+                <div id="id9" class="square" onclick="select('id9')"><p id="id9text"></p></div>
+            </div>
+            <div class="line" id="line2">
+                <div id="id10" class="square" onclick="select('id10')"><p id="id10text"></p></div>
+                <div id="id11" class="square" onclick="select('id11')"><p id="id11text"></p></div>
+                <div id="id12" class="square" onclick="select('id12')"><p id="id12text"></p></div>
+                <div id="id13" class="square" onclick="select('id13')"><p id="id13text"></p></div>
+                <div id="id14" class="square" onclick="select('id14')"><p id="id14text"></p></div>
+            </div>
+            <div class="line" id="line3">
+                <div id="id15" class="square" onclick="select('id15')"><p id="id15text"></p></div>
+                <div id="id16" class="square" onclick="select('id16')"><p id="id16text"></p></div>
+                <div id="id17" class="square" onclick="select('id17')"><p id="id17text"></p></div>
+                <div id="id18" class="square" onclick="select('id18')"><p id="id18text"></p></div>
+                <div id="id19" class="square" onclick="select('id19')"><p id="id19text"></p></div>
+            </div>
+            <div class="line" id="line4">
+                <div id="id20" class="square" onclick="select('id20')"><p id="id20text"></p></div>
+                <div id="id21" class="square" onclick="select('id21')"><p id="id21text"></p></div>
+                <div id="id22" class="square" onclick="select('id22')"><p id="id22text"></p></div>
+                <div id="id23" class="square" onclick="select('id23')"><p id="id23text"></p></div>
+                <div id="id24" class="square" onclick="select('id24')"><p id="id24text"></p></div>
+            </div>
+            <div class="line" id="line5">
+                <div id="id25" class="square" onclick="select('id25')"><p id="id25text"></p></div>
+                <div id="id26" class="square" onclick="select('id26')"><p id="id26text"></p></div>
+                <div id="id27" class="square" onclick="select('id27')"><p id="id27text"></p></div>
+                <div id="id28" class="square" onclick="select('id28')"><p id="id28text"></p></div>
+                <div id="id29" class="square" onclick="select('id29')"><p id="id29text"></p></div>
+            </div>
+    </div>
+    <div id="board">
+	<div class="line">
+                <div id="key0" class="key" onclick="pressKey('Q')">Q</div>
+                <div id="key1" class="key" onclick="pressKey('W')">W</div>
+                <div id="key2" class="key" onclick="pressKey('E')">E</div>
+                <div id="key3" class="key" onclick="pressKey('R')">R</div>
+                <div id="key4" class="key" onclick="pressKey('T')">T</div>
+                <div id="key5" class="key" onclick="pressKey('Y')">Y</div>
+                <div id="key6" class="key" onclick="pressKey('U')">U</div>
+                <div id="key7" class="key" onclick="pressKey('I')">I</div>
+                <div id="key8" class="key" onclick="pressKey('O')">O</div>
+                <div id="key9" class="key" onclick="pressKey('P')">P</div>
+            </div>
+            <div class="line">
+                <div id="key10" class="key" onclick="pressKey('A')">A</div>
+                <div id="key11" class="key" onclick="pressKey('S')">S</div>
+                <div id="key12" class="key" onclick="pressKey('D')">D</div>
+                <div id="key13" class="key" onclick="pressKey('F')">F</div>
+                <div id="key14" class="key" onclick="pressKey('G')">G</div>
+                <div id="key15" class="key" onclick="pressKey('H')">H</div>
+                <div id="key16" class="key" onclick="pressKey('J')">J</div>
+                <div id="key17" class="key" onclick="pressKey('K')">K</div>
+                <div id="key18" class="key" onclick="pressKey('L')">L</div>
+            </div>
+            <div class="line">
+                <div id="key19" class="key" onclick="pressKey('Z')">Z</div>
+                <div id="key20" class="key" onclick="pressKey('X')">X</div>
+                <div id="key21" class="key" onclick="pressKey('C')">C</div>
+                <div id="key22" class="key" onclick="pressKey('V')">V</div>
+                <div id="key23" class="key" onclick="pressKey('B')">B</div>
+                <div id="key24" class="key" onclick="pressKey('N')">N</div>
+                <div id="key25" class="key" onclick="pressKey('M')">M</div>
+       	</div>
+       	<div class="line">
+       		<div id="key26" class="key" onclick="pressKey('delete')"><p>DEL</p></div>
+     		<div id="key27" class="key" onclick="pressKey('enter')"><p>ENTER</p></div>
+       	</div>
+    </div>
+    <div id="pop-up">
+		
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
