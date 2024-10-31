@@ -32,5 +32,5 @@ function writeCookies(price, commission, typePayment) {
 }
 
 function removeCookies(name, path="/") {
-    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=" + path + "; domain=" + window.location.hostname + ";";
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
 }
