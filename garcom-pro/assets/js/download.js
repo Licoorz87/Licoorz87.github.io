@@ -23,7 +23,7 @@ function download() {
     const url = URL.createObjectURL(blob);
     
     const formattedDate = new Date().toISOString().slice(0, 10).replace(/-/g, '');
-    const time = Math.floor(new Date().getTime() / 1000);
+    const time = Math.floor(new Date().getTime() / 1000) - 1704078000;
     const filename = formattedDate + "-" + time;
 
     const a = document.createElement('a');
