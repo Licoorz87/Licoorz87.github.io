@@ -141,8 +141,10 @@ function loadOrder() {
 }
 
 function createOrder(price, commission, typePayment) {
-    writeCookies(price, commission, typePayment);
-    loadPage("order.html");
+    if (price < 147700) {
+        writeCookies(price, commission, typePayment);
+        loadPage("order.html");
+    }
 }
 
 function initializeOrderEvents() {
