@@ -48,10 +48,10 @@ function selectedTypePayment(data) {
         html = `<i class="fa-solid fa-money-bill color--green"></i> Dinheiro`;
         typePayment = 1;
     } else if (data == "debit") {
-        html = `<i class="fa-solid fa-cc-mastercard color--yellow"></i> Cartão de Débito`;
+        html = `<i class="fa-brands fa-cc-mastercard color--yellow"></i> Cartão de Débito`;
         typePayment = 2;
     } else if (data == "credit") {
-        html = `<i class="fa-solid fa-cc-mastercard color--blue"></i> Cartão de Crédito`;
+        html = `<i class="fa-brands fa-cc-mastercard color--blue"></i> Cartão de Crédito`;
         typePayment = 3;
     } else if (data == "mumbuca") {
         html = `<i class="fa-solid fa-credit-card color--red"></i> Cartão Mumbuca`;
@@ -101,27 +101,27 @@ function loadOrder() {
     const typePaymentFormated = {
         "0": {
             "name": "Pix",
-            "icon": "fa-p color--black"
+            "icon": "fa-solid fa-p color--black"
         },
         "1": {
             "name": "Dinheiro",
-            "icon": "fa-money-bill color--green"
+            "icon": "fa-solid fa-money-bill color--green"
         },
         "2": {
             "name": "Cartão de Débito",
-            "icon": "fa-credit-card color--yellow"
+            "icon": "fa-brands fa-cc-mastercard color--yellow"
         },
         "3": {
             "name": "Cartão de Crédito",
-            "icon": "fa-credit-card color--blue"
+            "icon": "fa-brands fa-cc-mastercard color--blue"
         },
         "4": {
             "name": "Cartão Mumbuca",
-            "icon": "fa-credit-card color--red"
+            "icon": "fa-solid fa-credit-card color--red"
         },
         "5": {
             "name": "Voucher",
-            "icon": "fa-credit-card color--pink"
+            "icon": "fa-solid fa-credit-card color--pink"
         }
     }
 
