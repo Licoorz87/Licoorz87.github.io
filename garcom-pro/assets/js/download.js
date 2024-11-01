@@ -19,7 +19,7 @@ function download() {
     }
 
     const jsonString = JSON.stringify(json, null, 2);
-    const blob = new Blob([jsonString], { type: 'application/json' });
+    const blob = new Blob([jsonString], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
     
     const formattedDate = new Date().toISOString().slice(0, 10).replace(/-/g, '');
