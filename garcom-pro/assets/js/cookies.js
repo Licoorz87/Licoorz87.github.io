@@ -22,7 +22,7 @@ function writeCookies(price, commission, typePayment) {
     const expirationDate = new Date(date.getTime() + 7 * 24 * 60 * 60 * 1000);
 
     const encodedValues = [
-        base62Encrypt(Math.floor(price * 100), "price"),
+        base62Encrypt(Math.round(price * 100), "price"),
         base62Encrypt(commission),
         base62Encrypt(typePayment),
         base62Encrypt(timeInSeconds, "time")
