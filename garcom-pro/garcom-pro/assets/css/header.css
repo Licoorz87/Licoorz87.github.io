@@ -1,0 +1,55 @@
+/* Header */
+/* ===================== */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 7px;
+    box-shadow: 0 5px 10px gray;
+}
+
+.header * {
+    font-family: "Rubik Medium", Arial, Helvetica, sans-serif;
+}
+
+.header .icon {
+    cursor: pointer;
+    font-size: 26px;
+    padding: 10px;
+}
+
+
+/* Nav */
+/* ===================== */
+.nav {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    background-color: white;
+    transition: left 0.4s linear;
+}
+
+.nav__item {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 7px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+}
+
+.nav__item:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.nav__span {
+    font-size: 20px;
+}
