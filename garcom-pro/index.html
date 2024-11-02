@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Garçom Pro</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/font.css">
+        <link rel="stylesheet" href="assets/css/common.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/order.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <i class="fa-solid fa-bars icon toggle-nav__button"></i>
+
+            <nav class="nav">
+                <section class="nav__item toggle-nav__button">
+                    <i class="fa-solid fa-chevron-left icon"></i>
+                    <span class="nav__span">Voltar</span>
+                </section>
+                <section class="nav__item nav-action" data-action="order">
+                    <i class="fa-solid fa-receipt icon"></i>
+                    <span class="nav__span">Pedidos</span>
+                </section>
+                <section class="nav__item nav-action" data-action="download">
+                    <i class="fa-solid fa-download icon"></i>
+                    <span class="nav__span">Download</span>
+                </section>
+                <section class="nav__item nav-action" data-action="result">
+                    <i class="fa-solid fa-chart-pie icon"></i>
+                    <span class="nav__span">Resultados</span>
+                </section>
+                <section class="nav__item nav-action" data-action="delete">
+                    <i class="fa-solid fa-eraser icon"></i>
+                    <span class="nav__span">Deletar Pedidos</span>
+                </section>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <main class="main">
+            <span>Carregando...</span>
+        </main>
+
+        <!-- Footer -->
+        <footer></footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/font-awesome.min.js"></script>
+        <script src="assets/js/base62.js"></script>
+        <script src="assets/js/cookies.js"></script>
+        <script src="assets/js/header.js"></script>
+        <script src="assets/js/page.js"></script>
+        <script src="assets/js/order.js"></script>
+        <script src="assets/js/download.js"></script>
+        <script>
+            loadPage("order.html");
+        </script>
+    </body>
+</html>
