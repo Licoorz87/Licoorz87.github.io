@@ -11,7 +11,6 @@ function download() {
             let loadTypePayment = [];
 
             for (let index=0; index < (segment.length-5)/6; index++) {
-                console.log(1);
                 let minisegment = segment.slice(index*6, (index+1)*6);
 
                 let priceBase62 = minisegment.slice(0, 4);
