@@ -183,7 +183,7 @@ function loadOrder() {
 
             for (let index=0; index<loadPrice.length; index++) {
                 totalCommission += loadPrice[index] - loadPrice[index] * 10 / 11;
-                subTotal += loadCommission[index] == 10 ? loadPrice[index] * 10 / 11 : 0;
+                subTotal += loadCommission[index] == 10 ? loadPrice[index] * 10 / 11 : loadPrice[index] * 10 / 11;
             }
 
             minihtml = `<section class="orders__item" id="${timeBase62}"><div class="orders__item--divisor data"><span>${dateFormated}</span><span>${hourFormated}</span></div><br><br><div class="orders__item--divisor grid"><span>Subtotal</span><span class="right">$</span><span class="right">${(Math.floor(subTotal * 100) / 100).toFixed(2).replace(".", ",")}</span></div><div class="orders__item--divisor grid"><span>Comissão</span><span class="right">$</span><span class="right">${(Math.floor(totalCommission * 100) / 100).toFixed(2).replace(".", ",")}</span></div><div class="orders__item--divisor grid"><span>Total</span><span class="right">$</span><span class="right">${(Math.floor(total * 100) / 100).toFixed(2).replace(".", ",")}</span></div><br><div class="orders__item--divisor payment"><section>`;
