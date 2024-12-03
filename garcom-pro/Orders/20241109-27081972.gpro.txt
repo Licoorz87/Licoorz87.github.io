@@ -1,0 +1,484 @@
+{
+  "data": [
+    {
+      "price": [
+        100
+      ],
+      "commission": [
+        10
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159948
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159955
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159959
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159960
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159960
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159961
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159961
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159961
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159961
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159962
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159962
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159962
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159962
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159962
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159963
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159963
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159963
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159963
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159963
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159964
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159964
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159964
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159964
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159964
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159965
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159965
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159965
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159966
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159966
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159966
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159966
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159966
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159967
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159967
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159967
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159967
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159967
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159968
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159968
+    },
+    {
+      "price": [
+        1000
+      ],
+      "commission": [
+        0
+      ],
+      "typePayment": [
+        0
+      ],
+      "time": 1731159968
+    }
+  ]
+}
